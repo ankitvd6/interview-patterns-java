@@ -1,0 +1,22 @@
+title: Interview Patterns Java
+description: Practical DSA and interview pattern notes in Java.
+url: "https://ankitvd6.github.io"
+baseurl: "/interview-patterns-java"
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "note"
+
+exclude:
+  - README.md

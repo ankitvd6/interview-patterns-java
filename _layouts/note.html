@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article class="note-shell">
+  <aside class="note-meta" aria-label="Note metadata">
+    <a class="back-link" href="{{ '/' | relative_url }}">Back home</a>
+    {% if page.section %}
+      <p class="section-label">{{ page.section }}</p>
+    {% endif %}
+    {% if page.summary %}
+      <p>{{ page.summary }}</p>
+    {% endif %}
+  </aside>
+
+  <div class="note-content">
+    <header class="note-header">
+      <p class="eyebrow">{{ page.category | default: "Pattern Notes" }}</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}
+        <p>{{ page.description }}</p>
+      {% endif %}
+    </header>
+
+    <div class="prose">
+      {{ content }}
+    </div>
+  </div>
+</article>
