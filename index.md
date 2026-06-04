@@ -17,16 +17,16 @@ title: Home
     <ul>
       <li>Pattern-first explanations</li>
       <li>Java-ready templates</li>
-      <li>Short review notes before interviews</li>
+      <li>Topic index for quick navigation</li>
     </ul>
   </aside>
 </section>
 
-<section class="section">
+<section class="section" id="notes">
   <div class="section-heading">
     <div>
-      <h2>Notes</h2>
-      <p>Start with a pattern, then add more pages as your DSA notebook grows.</p>
+      <h2>Notes Index</h2>
+      <p>Pick a topic and jump into the pattern guide you want to review.</p>
     </div>
   </div>
 
